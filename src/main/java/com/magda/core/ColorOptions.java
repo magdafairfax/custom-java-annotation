@@ -13,5 +13,6 @@ public @interface ColorOptions {
     }
 
     Color color() default Color.WHITE;
+    String lastModified() default "01/08/2020";
 
 }
